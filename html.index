@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Fancy Class Hair</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <h1>The Fancy Class Hair</h1>
+        <input type="text" id="search-bar" placeholder="Search wigs and bundles...">
+        <button id="cart-button">🛒 Cart</button>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#">Sale</a></li>
+            <li><a href="#">Color</a></li>
+            <li><a href="#">Style</a></li>
+            <li><a href="#">Best Sellers</a></li>
+            <li><a href="#">Ready to Wear</a></li>
+            <li><a href="#">Shop All</a></li>
+        </ul>
+    </nav>
+
+    <section id="products">
+        <!-- Products will be loaded dynamically here -->
+    </section>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
